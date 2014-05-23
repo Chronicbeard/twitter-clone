@@ -19,6 +19,9 @@ body {
 	font-family: "Helvetica Neue",Arial,sans-serif;
 }
 
+textarea {
+
+}
 /* GLOBAL ELEMENTS */
 .avatar {
 	width: 32px;
@@ -77,6 +80,7 @@ body {
 	width: 522px;
 	background-color: white;
 	border-radius: 6px;
+	display: none;
 }
 	#main h2 {
 		font-size: 18px;
@@ -129,6 +133,7 @@ body {
 	}
 		#tweet-controls {
 			text-align: right;
+			display: none;
 		}
 			#tweet-controls div {
 				display: inline-block;
@@ -137,6 +142,9 @@ body {
 				font-size: 14px;
 				color: #999;
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
+			}
+			#tweet-submit {
+				/*cursor: pointer;*/
 			}
 
 /* TWEET */
